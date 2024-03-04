@@ -1,0 +1,29 @@
+@import "/src/app/shared/styles/variables";
+.nav-item {
+  width: 150px;
+  height: 50px;
+  background-color: $secondaryColor;
+  border-radius: 10px;
+
+  &:hover {
+    background: $primaryColor;
+    transition: all 0.3s linear;
+  }
+}
+
+.active {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: $primaryColor;
+}
+.primary {
+  width: 150px;
+  height: 50px;
+  background: $primaryColor;
+
+  &:hover {
+    background: $secondaryColor;
+    transition: all 0.3s linear;
+  }
+}

@@ -1,0 +1,253 @@
+@import "/src/app/shared/styles/variables";
+
+.conteiner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px 0 10px;
+}
+
+.border-icon {
+  border: 1px solid #d1d9ce;
+  border-radius: 16px;
+  padding: 0 15px 15px;
+  width: 358px;
+  height: 554px;
+  margin: 0 0 20px 0;
+}
+.product_title-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  //   padding: 0 15px 15px;
+  height: 47px;
+}
+
+.product_title i {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background: #f5faf2;
+  margin-left: 5px;
+}
+.product_title i img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.product_image {
+  cursor: pointer;
+  // opacity: 1;
+}
+.product-img:hover {
+  opacity: 0.8;
+  transition: all 0.3s linear;
+}
+.product_title {
+  font-weight: 600;
+  font-size: 20px;
+  min-height: 2.6em;
+  line-height: 1.3em;
+  cursor: pointer;
+  &:hover {
+    color: $primaryColor;
+    transition: all 0.3s linear;
+  }
+}
+.product_detail {
+  position: relative;
+}
+.product_top-right {
+  top: 10px;
+  right: -10px;
+  position: absolute;
+}
+// .fav-btn {
+//     width: 20px;
+//     height: 20px;
+//     line-height: 30px;
+
+//     align-items: center;
+
+//     justify-content: center;
+//     cursor: pointer;
+// }
+button {
+  background: 0 0;
+  border: none;
+}
+.fav-btn svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fav-btn .fill-anime {
+  fill: transparent;
+  stroke: $secondaryColor;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s linear;
+  &:hover {
+    fill: $primaryColor;
+    stroke: $primaryColor;
+  }
+}
+
+.product_desc {
+  // padding: 0 15px 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 4.5em;
+  color: #636662;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+.product_price-wrap {
+  display: flex;
+  // padding: 0 15px 15px;
+  // align-items: flex-end;
+
+  // flex-wrap: wrap;
+  // font-size: 20px;
+  // line-height: 1em;
+}
+.product_price {
+  font-weight: 600;
+  line-height: 1em;
+}
+.product_size {
+  display: inline-block;
+  font-size: 14px;
+
+  line-height: 1em;
+  margin: 5px auto 0 5px;
+  color: #636662;
+}
+.bonus_calculate {
+  font-size: 14px;
+  color: $primaryColor;
+  font-weight: 700;
+}
+.thumb-input-number {
+  display: inline-flex;
+  width: 126px;
+  height: 40px;
+  align-items: center;
+  overflow: hidden;
+  color: #636662;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid #d1d9ce;
+  border-radius: 12px;
+}
+.thumb-input-number button {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  background: 0;
+  font-size: 0;
+  transition: all 0.3s linear;
+  border: none;
+}
+:focus {
+  outline: none;
+}
+.thumb-input-number input {
+  width: 46px;
+  height: 28px;
+  font-weight: 400;
+  text-align: center;
+  border-left: 1px solid #d1d9ce;
+  border-right: 1px solid #d1d9ce;
+}
+input {
+  border-radius: 0;
+  background: 0 0;
+  border: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.thumb-input-number button.increment:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 2px;
+  background: #636662;
+  transition: all 0.3s linear;
+}
+.thumb-input-number button.increment:hover::before {
+  background: $primaryColor;
+}
+.thumb-input-number button.decrement:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 2px;
+  background: #636662;
+
+  transition: all 0.3s linear;
+}
+.thumb-input-number button.decrement:hover::before {
+  background: $primaryColor;
+}
+.thumb-input-number button.increment:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 10px;
+  background: #636662;
+  transition: all 0.3s linear;
+}
+.thumb-input-number button.increment:hover::after {
+  background: $primaryColor;
+}
+.btn-product {
+  width: 187px;
+  height: 40px;
+
+  position: relative;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  border-radius: 12px;
+  padding: 8px 15px;
+  background: $secondaryColor;
+  transition: all 0.3s linear;
+  border: none;
+  &:hover {
+    background: $primaryColor;
+  }
+}
+.btn-product span {
+  margin-right: 10px;
+  color: white;
+}

@@ -1,0 +1,21 @@
+@import '/src/app/shared/styles/variables';
+.primary{
+background-color: $primaryColor;
+color: white;
+&:hover{
+   color: black;
+    transition: all .3s linear;
+}
+}
+
+input:focus{
+border-color:  $primaryColor ;
+box-shadow: 0 0 2px 2px $primaryColor;
+}
+textarea:focus{
+    border-color:  $primaryColor ;
+box-shadow: 0 0 2px 2px $primaryColor;
+}
+.progress-bar{
+    background-color: $secondaryColor;
+}

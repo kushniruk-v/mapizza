@@ -1,0 +1,57 @@
+.dialog-back {
+    background-color: rgba(0,0,0,.41);
+  }
+  .auth-dialog { 
+    width: 560px;
+    // height: 371px;
+    max-height: 100%;
+    text-align: center;
+  }
+   
+ 
+  .dialog-back-2 {
+    background-color: rgba(0,0,0,.41);
+
+  }
+  .basket-dialog {
+    width: 540px;
+    height: 624px;
+
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(100%);
+      }
+    to {
+        transform: translateX(0);
+      }
+    }
+    
+    
+    
+    mat-dialog-container {
+      animation: 1s slideInLeft;
+    }
+    
+    // mat-dialog-container.ng-leave {
+    //   animation: 1s slideOutLeft;
+    // }
+
+  }
+  // .basket-dialog-2{
+  //   @keyframes slideOutLeft {
+  //     from {
+  //       transform: translateX(-100%);
+  //     }
+  //     to {
+  //       transform: translateX(0);
+  //     }
+  //   }
+
+  //    mat-dialog-container.ng-leave {
+  //     animation: 1s slideOutLeft;
+  //   }
+  // }
+
+ 
+ 
+  

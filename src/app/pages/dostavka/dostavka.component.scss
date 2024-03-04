@@ -1,0 +1,141 @@
+@import "/src/app/shared/styles/font";
+.title-decor {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+}
+.title {
+  font-family: "MontBlanc", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+h1 {
+  font-family: "MontBlanc", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+}
+.title-decor:before {
+  top: -15px;
+  left: -35px;
+  width: 50px;
+  height: 40px;
+}
+.title-decor:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://mapizza.com.ua/wp-content/themes/mamma-italiana/img/title-decor.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.text-info {
+  width: 925px;
+  height: 100%;
+  margin: 10px auto;
+}
+.text-info p {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #636662;
+  font-weight: 400;
+  font-family: "MontBlanc", sans-serif;
+}
+.delivery-block {
+  width: 1146px;
+  height: 111px;
+  margin: 0 auto 30px;
+}
+
+.green-block {
+  width: 447px;
+  height: 111px;
+  margin: 0 0 30px 0;
+}
+
+.delivery-item {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #d1d9ce;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 0px #f2faf2;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+}
+.zone-info-wrapper {
+  width: 354px;
+  height: 69px;
+}
+
+.delivery-item .zone-img {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.zone-info {
+  width: 354px;
+  height: 42px;
+  margin-left: -31px;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #636662;
+  font-weight: 400;
+}
+.delivery-item .zone-info li {
+  display: flex;
+  justify-content: space-between;
+}
+.terms-delivery-row {
+  margin-bottom: -30px;
+}
+
+.map-del-wrapper {
+  width: 1116px;
+  height: 480px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+element.style {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  will-change: transform;
+  transform: translate(0px, 0px);
+}
+
+.payment-block {
+  width: 447px;
+  height: 111px;
+  margin: 0 0 30px 0;
+}
+.payment-item {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #d1d9ce;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 0px #f2faf2;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+}
+.payment-item-info {
+  width: 354px;
+  height: 75px;
+  margin-left: 16px;
+}
+.payment-item-info p {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #636662;
+  font-family: "MontBlanc", sans-serif;
+  font-weight: 400;
+}

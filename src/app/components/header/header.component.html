@@ -1,0 +1,154 @@
+<header>
+    <div class="conteiner" >
+        <div class="header-top">
+            <div class="header-phone">
+                <a href="tel:+380971830618">+38 097 18 306 18 </a>
+                <p>нд-чт 09:30 − 21:00 <br> пт- сб 09:30 − 22:00 <br>
+                </p>
+                </div>
+                        <nav class="navbar navbar-expand-lg header-links ">
+                            <ul class="navbar-nav ">
+                                <li>
+                                    <a class="nav-link" [routerLink]="['/about-us']"
+                                    routerLinkActive="route-active">Про нас</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" [routerLink]="['/dostavka']"
+                                    routerLinkActive="route-active">Доставка та оплата</a>
+                                </li>
+                                <li> <a class="nav-link" [routerLink]="['/actions']"
+                                    routerLinkActive="route-active">Акції</a>
+                                </li>
+                                <li><a class="nav-link" [routerLink]="['/kontakty']"
+                                    routerLinkActive="route-active">Контакти</a>
+                                </li>
+                                <li>  <a class="nav-link" [routerLink]="['/career']"
+                                    routerLinkActive="route-active"  >Вакансії</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" [routerLink]="['/news']"
+                                    routerLinkActive="route-active">Новини</a>
+                                </li>
+                                <div class="header-response">
+                                    <a class="nav-link ms-1 text-white " href="#">Відгук</a>
+                                </div>
+                                <div class="header-response">
+                                    <a class="nav-link ms-1 text-white "[routerLink]="['/admin']"
+                                    routerLinkActive="route-active">ADMIN</a>
+                                </div>
+ 
+                            </ul>
+                          </nav>
+                          <div class="header-info">
+                            <img src="assets/images/i-header-top.svg" alt="" >
+                            <p><b style="color:  #009246">29 хв</b><span> — середній час доставки</span></p>
+                          </div>
+                          <div class="user-cabinet">
+                          
+                           
+                                <a  class="user-c-btn " [routerLink]="['/auth']"
+                                routerLinkActive="route-active">
+                               <img src="assets/images/user.png" alt="" class="user-img" >
+                            Вхід       </a>
+                        </div>  
+                        <div class="user-cabinet">
+                          
+                           
+                            <a  class="user-c-btn " (click)="openLoginDialog()">
+                           <img src="assets/images/user.png" alt="" class="user-img" >
+                        В       </a>
+                    </div>  
+                              
+        </div>
+        <div class="header-botton">
+            <a  class="nav-link" [routerLink]="['/']">
+                <img src="assets/images/logo-pizza-red.svg" alt="" class="header-logo">
+            </a>
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg  ">
+                <ul class="d-flex navbar-nav">
+                    <li class="menu-item ">
+                        <a
+                        [routerLink]="['/pizza']"
+                        routerLinkActive="route-active"
+                        class="nav-link"
+                        aria-current="page"
+                      >
+                <img src="assets/images/i-menu-1.svg" alt=""> Піца
+               </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a
+                        [routerLink]="['/sous']"
+                        routerLinkActive="route-active"
+                        class="nav-link"
+                        aria-current="page"
+                      >
+                <img src="assets/images/img_2862.png" alt=""> Соуси
+               </a>
+                    </li>
+                    <li class="menu-item">
+                        <a
+                        [routerLink]="['/salads']"
+                        routerLinkActive="route-active"
+                        class="nav-link"
+                        aria-current="page"
+                      >
+                         <img src="assets/images/i-menu-2.svg" alt="">Салати
+                        </a>
+                             </li>
+                             <li class="menu-item">
+                                <a
+                                [routerLink]="['/desserts']"
+                                routerLinkActive="route-active"
+                                class="nav-link"
+                                aria-current="page"
+                              >
+                                 <img src="assets/images/i-menu-3.svg" alt="">Десерти
+                                </a>
+                                     </li>
+                                     <li class="menu-item">
+                                        <a
+                                        [routerLink]="['/drinks']"
+                                        routerLinkActive="route-active"
+                                        class="nav-link"
+                                        aria-current="page"
+                                      >
+                                         <img src="assets/images/i-menu-4.svg" alt="">Напої
+                                        </a>
+                                             </li>
+                                             
+                                                     
+                </ul>
+                <div  class="basket-cart" (click)="openBasketDialog()">
+                    <div style="position: relative;">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.375 9.58739V8.37489C9.375 5.56239 11.6375 2.79989 14.45 2.53739C17.8 2.21239 20.625 4.84989 20.625 8.13739V9.86239" stroke="#212721" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.25 27.5H18.75C23.775 27.5 24.675 25.4875 24.9375 23.0375L25.875 15.5375C26.2125 12.4875 25.3375 10 20 10H10C4.66253 10 3.78753 12.4875 4.12503 15.5375L5.06253 23.0375C5.32503 25.4875 6.22503 27.5 11.25 27.5Z" stroke="#212721" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M19.3694 15H19.3806" stroke="#212721" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M10.6181 15H10.6294" stroke="#212721" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <i>{{countTovary}}</i>
+                            
+                    </div>
+                    <p><b>{{total}}</b> грн</p>
+                   
+                    <div class="tooltip" *ngIf="!countTovary" >
+                        <img  src="assets/images/popup-img-6.svg"   alt=""><div class="h6">
+                        Ваш кошик пустий</div><div class="text">
+                        Наповніть його</div></div> 
+                </div>
+                </nav>
+            </div>
+
+        </div>
+
+
+   
+
+ 
+    
+    </div>
+   
+</header>
+

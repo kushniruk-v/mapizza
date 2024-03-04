@@ -1,0 +1,299 @@
+{
+  "actions": [
+    {
+      "date": "2024-02-29T21:00:57.059Z",
+      "name": "Бонусна програма",
+      "title": "Бонусна програма",
+      "description": "У нас є приголомшлива бонусна програма для вас, завдяки якій ви можете отримувати кешбек (бонуси) за покупки на сайті. Бонуси ви зможете використати для оплати своїх наступних замовлень на сайті.\nВикористовуйте всі переваги нашої бонусної програми! Пройдіть реєстрацію або увійдіть в особистий кабінет, щоб накопичувати бонуси та використовувати за покупки на сайті.",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fphoto_2023-05-29_13-13-00-734x415.jpg?alt=media&token=5786f145-6704-4b7c-b2c3-39c3e2c2368e",
+      "newFormAction": [
+        {
+          "additionalImage": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fbanner-img.jpg?alt=media&token=6ae155a5-3869-4be5-a412-13fa574b4db4",
+          "additionalList": "✅ Накопичуєте 3% від суми оплаченого чеку.\n\n✅ Проста і чесна формула: 1 бонус = 1 грн суми наступної покупки.\n\n✅ Бонуси нараховуються за фактом оплати замовлення протягом 24 годин.\n\n✅ Інформація про кількість накопичених бонусів та історію їх нарахування і списання можна побачити на сайті в Особистому кабінеті.\n\n✅ Бонуси дійсні протягом 90 календарних днів. Після закінчення цього терміну відповідна кількість бонусів автоматично списується з рахунку.\n\n✅ При оплаті одного замовлення можна списати необмежену кількість бонусів. Сума чеку після застосування бонусів повинна бути не менше мінімальної суми доставки по зонам.\n\n❌ Бонуси можуть не нараховуватися за деякі спеціальні та акційні пропозиції.\n\n❌ Бонуси не нараховуються на алкоголь, а також страви, які продаються зі знижкою."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "date": "2024-02-29T21:09:53.932Z",
+      "name": "Акція 2+1 – з понеділка по четвер",
+      "title": "Акція 2+1 – з понеділка по четвер",
+      "description": "Замовляйте доставку у MA Pizza з понеділка по четвер та користуйтесь акцією 2+1. Отримуєте 3 піци, а платите всього за дві! Знижка надається на найдешевшу з обраних піц у замовленні. Акція розповсюджується на всі піци у меню.",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fphoto_2023-05-29_13-13-00-734x415.jpg?alt=media&token=20d41d84-106d-425a-8d85-9475baa25a39",
+      "newFormAction": [],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "Соуси",
+      "path": "sous",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fimg_2862.png?alt=media&token=d9b660f1-4d2d-4099-b838-16c09d0d561f",
+      "id": 2
+    },
+    {
+      "name": "Салати",
+      "path": "salads",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-2.svg?alt=media&token=8534b8b4-2728-4bce-9de9-524ccd2a1dbb",
+      "id": 3
+    },
+    {
+      "name": "Десерти",
+      "path": "desserts",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-3.svg?alt=media&token=ec275f2f-3e83-44b9-8dae-b99d03074dae",
+      "id": 4
+    },
+    {
+      "name": "Напої",
+      "path": "drinks",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-4.svg?alt=media&token=a5bef1be-4e46-4b83-a39f-5c12ce694266",
+      "id": 5
+    },
+    {
+      "name": "Піца",
+      "path": "pizza",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-1.svg?alt=media&token=a9aa9fd1-f3c1-4b21-b147-0faf2168000b",
+      "id": 6
+    }
+  ],
+  "tovary": [
+    {
+      "category": {
+        "name": "pizza",
+        "path": "pizza",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-1.svg?alt=media&token=54ab2605-0fe9-4ee9-974e-4b59af23c6e5",
+        "id": 1
+      },
+      "name": "Прошуто ",
+      "path": "proshuto",
+      "description": "Хамон, шинка, артишоки, сир моцарела, гриби печериці, неаполітанський соус.",
+      "weight": "480",
+      "price": "291",
+      "bonus": "9",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fproshuto.webp?alt=media&token=fe74fa74-460f-46af-825a-56e9d70a26df",
+      "id": 2
+    },
+    {
+      "category": {
+        "name": "pizza",
+        "path": "pizza",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-1.svg?alt=media&token=54ab2605-0fe9-4ee9-974e-4b59af23c6e5",
+        "id": 1
+      },
+      "name": "Кон Бірра Кон Бірра",
+      "path": "karne-copy-copy",
+      "description": "Сир моцарела, мисливські ковбаски, куряче філе, салямі чорізо, сир дорблю, перець чилі, вершковий соус, орегано.",
+      "weight": "270",
+      "price": "195",
+      "bonus": "8",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fkon-birra-835x835%20(1).webp?alt=media&token=2e425e4b-e997-4ce2-bcfa-db1644cee2d9",
+      "imagePathCategory": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-filter-3.svg?alt=media&token=0a3858b7-7040-46fe-b5fa-c672bfa7b60a",
+      "categoryTovary": "М‘ясо",
+      "id": 4
+    },
+    {
+      "category": {
+        "name": "Піца",
+        "path": "pizza",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-1.svg?alt=media&token=a9aa9fd1-f3c1-4b21-b147-0faf2168000b",
+        "id": 6
+      },
+      "name": "Капрічоза",
+      "path": "kaprichoza",
+      "description": "Шинка, печериці, маслини, сир моцарела, неаполітанський соус.",
+      "weight": "440",
+      "price": "270",
+      "bonus": "8",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fkaprichoza-835x835.webp?alt=media&token=5fe72e88-7348-42fd-999c-dba917701565",
+      "imagePathCategory": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-filter-3.svg?alt=media&token=5275cdbe-5a1b-4caf-8ffd-90a282734039",
+      "categoryTovary": "М‘ясо",
+      "id": 5
+    },
+    {
+      "category": {
+        "name": "Салати",
+        "path": "salads",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-2.svg?alt=media&token=8534b8b4-2728-4bce-9de9-524ccd2a1dbb",
+        "id": 3
+      },
+      "name": "Салат з хамоном",
+      "path": "salat-z-proshutto-ta-karamelizovanoyu-grusheyu",
+      "description": "Мікс салату, хамон, груша, коктейльні помідори, грецький горіх, сир дорблю, соус медово-гірчичний. * Соус подається окремо, входить в об'єм салату.",
+      "weight": "222",
+      "price": "150",
+      "bonus": "8",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsalat-z-hamonom.webp?alt=media&token=1a20c177-f767-4296-b347-f0f6492bb92b",
+      "imagePathCategory": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-filter-3.svg?alt=media&token=b2ab034e-dac1-4c82-9701-af448cada569",
+      "categoryTovary": "М‘ясо",
+      "id": 6
+    },
+    {
+      "category": {
+        "name": "Салати",
+        "path": "salads",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-2.svg?alt=media&token=8534b8b4-2728-4bce-9de9-524ccd2a1dbb",
+        "id": 3
+      },
+      "name": "Салат з креветкою",
+      "path": "salat-z-tygrovoyu-krevetkoyu-ta-avokado",
+      "description": "Мікс салату, тигрова креветка, огірок, коктейльні помідори, ніжний крем-сир та соус медово-гірчичний. * Соус подається окремо, входить в об'єм салату.",
+      "weight": "105",
+      "price": "111",
+      "bonus": "5",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsalat-z-krevetkoyu.webp?alt=media&token=89ea69e4-1076-4679-8485-f9602e13e744",
+      "imagePathCategory": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-filter-2.svg?alt=media&token=0e72b052-8308-42ab-b2cd-a00e94246018",
+      "categoryTovary": "Морепродукти",
+      "id": 7
+    },
+    {
+      "category": {
+        "name": "Десерти",
+        "path": "desserts",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-3.svg?alt=media&token=ec275f2f-3e83-44b9-8dae-b99d03074dae",
+        "id": 4
+      },
+      "name": "Горішки зі згущеним молоком",
+      "path": "chia-z-malynovym-sousom-copy",
+      "description": "Горішки зі згущеним молоком 7 шт на порцію",
+      "weight": "10",
+      "price": "86",
+      "bonus": "5",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fgorishky-1.1-scaled-835x835.jpg?alt=media&token=3547f02a-ff84-469f-ba08-e13e0c7d7299",
+      "imagePathCategory": null,
+      "categoryTovary": null,
+      "id": 8
+    },
+    {
+      "category": {
+        "name": "Десерти",
+        "path": "desserts",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-3.svg?alt=media&token=ec275f2f-3e83-44b9-8dae-b99d03074dae",
+        "id": 4
+      },
+      "name": "Снікерс",
+      "path": "snikers",
+      "description": "Шоколадний бісквіт, вершково-сирний крем з додаванням арахісової пасти, солена карамель, смажений арахіс *містить алерген!",
+      "weight": "222",
+      "price": "444",
+      "bonus": "5",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsnikers-1.1-scaled-835x835.jpg?alt=media&token=8daea454-b95e-4a2c-877e-286ca738550d",
+      "imagePathCategory": null,
+      "categoryTovary": null,
+      "id": 9
+    },
+    {
+      "category": {
+        "name": "Напої",
+        "path": "drinks",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-4.svg?alt=media&token=a5bef1be-4e46-4b83-a39f-5c12ce694266",
+        "id": 5
+      },
+      "name": "Сік Cido 1л апельсин",
+      "path": "sik-tymbark-1l-apelsyn",
+      "description": "Сік Cido 1л апельсин",
+      "weight": null,
+      "price": "85",
+      "bonus": "6",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsido-apelsyn-1-l.webp?alt=media&token=4df1d2a7-4fb7-4e07-a007-b07c2e4f5dc2",
+      "imagePathCategory": null,
+      "categoryTovary": null,
+      "id": 10
+    },
+    {
+      "category": {
+        "name": "Напої",
+        "path": "drinks",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fi-menu-4.svg?alt=media&token=a5bef1be-4e46-4b83-a39f-5c12ce694266",
+        "id": 5
+      },
+      "name": "Сік Cido 1л яблуко",
+      "path": "sik-tymbark-1l-yabluko",
+      "description": "Сік Cido 1л яблуко",
+      "weight": null,
+      "price": "85",
+      "bonus": "5",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsido-yabluko-1-l.webp?alt=media&token=d87e0e97-87fb-4955-8493-c0deca3d65c8",
+      "imagePathCategory": null,
+      "categoryTovary": null,
+      "id": 11
+    },
+    {
+      "category": {
+        "name": "Соуси",
+        "path": "sous",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fimg_2862.png?alt=media&token=d9b660f1-4d2d-4099-b838-16c09d0d561f",
+        "id": 2
+      },
+      "name": "Соус BBQ ",
+      "path": "sous-bbq",
+      "description": "Соус BBQ ",
+      "weight": "45",
+      "price": "38",
+      "bonus": "1",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsous-barbekyu.jpg?alt=media&token=19d69ddd-4dfc-4b86-8cd5-4d0029b4db41",
+      "imagePathCategory": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fsous-kategoriya.png?alt=media&token=7f17f6c7-333a-4ef9-958a-c12bcc3a92d1",
+      "categoryTovary": null,
+      "id": 12
+    }
+  ],
+  "careers": [
+    {
+      "date": "2024-01-31T20:26:53.569Z",
+      "name": "Кухар, піцайоло",
+      "title": "Кухар, піцайоло",
+      "description": "Що потрібно:\nвміти працювати з тістом — бути крутим піцайоло))\nвміти бути універсальним — видавати пасти, салати, супи\nбути класним у взаємодії з командою — оскільки команда наше все))\nта бути дуууже відповідальним — бо гість то любов)) він має смачно та якісно їсти\nУмови роботи:\n\nМи пропонуємо:\nвчасна виплата заробітної плати двічі в місяць;\nкласна мотивуюча ЗП, ти кайфанеш від того, як круто можна впливати на свій заробіток — ставка і % від каси\nпозмінний графік роботи з 9:30 до 21:30;\nкорпоративне харчування на зміні\nгарантований кар`єрний ріст — стань професійним шефом разом з нами\nзнижки 30% в нашій мережі на всю продукцію\nзручна локація оскільки у нас 7 піцерій — працюй де зручно)\nКитайська 10,\nПасічна 181,\nПулюя 12",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fvacancy-img-1.jpg.jpg?alt=media&token=244947cd-1bfe-465c-b3f6-ac0adfd985fc",
+      "id": 1
+    },
+    {
+      "date": null,
+      "name": "Кур’єр на скутер компанії",
+      "title": "Кур’єр на скутер компанії",
+      "description": "Розшукуємо молодих та комунікабельних хлопців для співпраці з нашою командою.\n\nЯкщо ви підходите за усіма критеріями нижче, Вам подобаються наші умови співпраці і Ви любите їздити на скутері — Ви той хто нам потрібен!)\n\nЩо потрібно робити:\n\nшвидка доставка замовлень на еко скутері компанії\nвміння керування скутером\nнадання консультації стосовно продукції\nдотримання стандартів роботи\nлюбити свою роботу)\nЩо для нас важливо:\n\nвік від 18 років\nправа категорії А/А1 вітається, проте не обов’язково\nзнання ПДР\nдосвід вітається\nЩо ми пропонуємо:\n\nробота в молодій та амбітній команді\nцікаву та активну роботу\nгідний рівень ЗП (ставка + замовлення + чайові)\nсмачний обід)\nзручний та гнучкий графік роботи Звертатись за номером +380973582373 – Олена",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fskuter-vakansiyi-737x492.jpg?alt=media&token=5f680db1-6402-432b-b336-45ea4f637bd4",
+      "id": 2
+    }
+  ],
+  "news": [
+    {
+      "title": "Піцайоло – традиція чи мода?",
+      "description": "Піца — улюблена страва дорослих та малюків. Ми любимо куштувати її на свята або швидко перехопити на обід. Сучасний світ спростив нам отримання задоволення і ми користуємось доставкою, коли хочемо поїсти у колі сім’ї, під час",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2F1111-742x388.jpg?alt=media&token=2fc2cd74-63e4-42dd-8a92-f510052ad706",
+      "newFormNews": [
+        {
+          "header": "Піцайоло – традиція чи мода?",
+          "additionalDescription": "Піца — улюблена страва дорослих та малюків. Ми любимо куштувати її на свята або швидко перехопити на обід. Сучасний світ спростив нам отримання задоволення і ми користуємось доставкою, коли хочемо поїсти у колі сім’ї, під час перегляду кіно. Але чи згадуємо ми про тих чарівників, які створюють для нас свято смаку? \n\nМова піде про піцайоло — людину, яка завжди залишається непомітною, але так багато робить для того, щоб ми отримали насолоду від піци. Піцерія MA Pizza чекає талановитих піцайоло, які люблять себе у цій професії, знають як зробити найкращу піцу та здивувати відвідувачів.",
+          "additionalImage": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2Fare-wood-fired-pizza-ovens-worth-it%20(1).jpg?alt=media&token=de3c0bfc-4927-482b-965f-33110da6bfb0",
+          "additionalList": ""
+        },
+        {
+          "header": "Походження професії",
+          "additionalDescription": "Перше згадування про піцайоло родом зі 17 століття. У Неаполі, звідки походження цієї смачної випічки, у піцайоло робота полягала не тільки у випіканні піци. Вони працювали перед публікою, створювали справжнє шоу з процесу, підкидали тісто та робили різні трюки.\n\nЛюдям подобалась така безоплатна вистава, вони залюбки приходили до закладу ще і ще. А піцерія мала шалений прибуток, завдяки великій увазі до видовищного процесу.\n\nЦей досвід застосовують і в сучасних пекарнях, де відвідувачі, затамувавши подих, дивуються вправності піцайоло.",
+          "additionalImage": "https://firebasestorage.googleapis.com/v0/b/mapizzaua.appspot.com/o/images%2F793443-768x1152.jpg?alt=media&token=5dde70ea-63b6-4d66-8079-75a4b9d59879",
+          "additionalList": ""
+        },
+        {
+          "header": "Обов’язки сучасного піцайоло ",
+          "additionalDescription": "Піцайоло у Львові — поширена серед молоді професія. Окрім традиційного шоу, вони виконують багато корисної роботи:",
+          "additionalImage": null,
+          "additionalList": "керують процесом;\nрозробляють нові рецепти, винаходять оригінальні смаки;\nроблять у команді, тримають швидкий темп і гарний настрій;\nпідтримують робоче місце у чистоті;\nконтролюють наявність, якість та свіжість продуктів;\nдотримуються санітарних норм та встановлених стандартів безпеки."
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin12345",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "email": "user@gmail.com",
+      "password": "user12345",
+      "role": "USER"
+    }
+  ]
+}

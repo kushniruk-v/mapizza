@@ -1,0 +1,168 @@
+@import '/src/app/shared/styles/variables';
+@import '/src/app/shared/styles/font';
+.footer{
+    width: 1116px;
+    height: 327px;
+    margin: 0 auto;
+    background-color: #f5faf2;
+    padding: 0 12px;
+    border-radius: 16px;
+}
+
+
+.footer-top .decor-img.left {
+    top: 50px;
+    left: 70px;
+}
+.footer-top .decor-img {
+    position: relative;
+    z-index: 1;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.footer-top .decor-img.right {
+    bottom: -310px;
+    left: 1100px;
+}
+
+.footer-top .decor-img {
+    position: relative;
+    z-index: 1;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.footer-logo{
+width: 133px;
+height: 32px;
+margin: 30px 0 0 60px;
+}
+.footer-phone{
+    margin: 20px 0 0 60px;
+}
+.footer-phone a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'MontBlanc', sans-serif;
+    text-decoration: none;
+    color: $secondaryColor;
+    &:hover{
+        color: $primaryColor;
+    }
+}
+.footer-phone p{
+    font-size: 12px;
+    font-family: 'MontBlanc', sans-serif;
+    color: #636662;
+}
+.social{
+display: flex;
+    width: 226px;
+    height: 26px;
+ text-align: center;
+ align-items: center;
+ margin: 20px 0 0 50px;
+}
+.social a{
+width: 26px;
+height: 26px;
+display: block;
+position: relative;
+background-color: $secondaryColor;
+border-radius: 100%;
+margin-left: 10px;
+}
+
+.social a:hover{
+        background-color: $primaryColor;
+        transition: all .3s linear;
+}
+.title-download-app{
+    margin: 40px 0 0 60px;
+}
+.items-download-app{
+    display: flex;
+    margin: 11px 0 0 60px;
+}
+.items-download-app img{
+width: 120px;
+height: 35px;
+}
+.footer-menu{
+    margin: 30px 0 0 0;
+    width: 226px;
+    height: 267px;
+    padding: 0 15px;
+}
+.footer-menu p{
+    font-family: 'MontBlanc', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #212721;
+}
+.menu-list a{
+    font-family: 'MontBlanc', sans-serif;
+    font-size: 14px;
+    color: #636662;
+text-decoration: none;
+&:hover{
+    color: $primaryColor;
+    transition: all .3s linear;
+}
+}
+.footer-menu li{
+margin-bottom: 5px;
+}
+.footer-links{
+    margin: 30px 0 0 0;
+    width: 226px;
+    height: 267px;
+    padding: 0 15px;
+}
+.footer-links p{
+    font-family: 'MontBlanc', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #212721;
+}
+.footer-links a{
+    font-family: 'MontBlanc', sans-serif;
+    font-size: 14px;
+    color: #636662;
+text-decoration: none;
+&:hover{
+    color: $primaryColor;
+    transition: all .3s linear;
+}
+}
+.footer-links li{
+    margin-bottom: 5px;
+    }
+    .footer-address{
+        margin: 30px 0 0 0;
+        width: 226px;
+        height: 267px;
+        padding: 0 15px;
+    }
+   
+    .footer-address span{
+        font-size: 18px;
+        font-weight: 600;
+        color: #212721;
+        font-family: 'MontBlanc', sans-serif;
+
+    }
+    .footer-address p{
+        color: #636662;
+        font-family: 'MontBlanc', sans-serif;
+        font-size: 14px;
+    }
+    .first {
+        margin-top: 15px;
+    }
+    .footer-address li{
+        margin-bottom: -14px;
+        }
